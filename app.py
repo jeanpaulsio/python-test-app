@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Server is running. Visit /ping to test.", 200
+    return "BIG WDC ENERGY. Visit /ping to test.", 200
 
 @app.route("/ping")
 def ping():
